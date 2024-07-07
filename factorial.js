@@ -7,3 +7,6 @@ export function factorial(num) {
 
   return factorial;
 }
+
+// PAIR PARTNER
+// Sarah Agemo

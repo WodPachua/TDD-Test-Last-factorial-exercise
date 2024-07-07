@@ -11,3 +11,6 @@ describe("Finding factorial of number", function () {
     assert.equal(factorial(0), 1);
   });
 });
+
+// PAIR PARTNER
+// Sarah Agemo
