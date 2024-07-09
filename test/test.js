@@ -6,8 +6,10 @@ describe("Finding factorial of number", function () {
     assert.equal(factorial(5), 120);
   });
 
-  it("Factorial of '0' and '1' should return '1'", function () {
+  it("Factorial of '1' should return '1'", function () {
     assert.equal(factorial(1), 1);
+  });
+  it("Factorial of '0' should return '1'", function () {
     assert.equal(factorial(0), 1);
   });
 });
