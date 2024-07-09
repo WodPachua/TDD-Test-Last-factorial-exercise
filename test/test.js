@@ -12,6 +12,10 @@ describe("Finding factorial of number", function () {
   it("Factorial of '0' should return '1'", function () {
     assert.equal(factorial(0), 1);
   });
+
+  it("Factorial of '>150' should return '-1'", function () {
+    assert.equal(factorial(151), -1);
+  });
 });
 
 // PAIR PARTNER
